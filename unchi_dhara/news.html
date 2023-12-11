@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uttarakhand-Valley</title>
+    <!-- external css file linking -->
+    <link rel="stylesheet" href="../CSS/unchi dhara.css">
+    <!-- external css file linking -->
+
+    <!-- font awesome linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- font awesome linking -->
+
+
+    <!-- bootstrap css file linking -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- bootstrap css file linking -->
+
+
+    <!-- css animation linking file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- css animation linking file -->
+    <!-- =================google fonts to be used===================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Fuggles&family=Mooli&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+        font-family: 'Assistant', sans-serif;
+        font-family: 'Fuggles', cursive;
+        font-family: 'Mooli', sans-serif;
+         -->
+
+    <!--=================== google fonts to be used======================= -->
+
+</head>
+
+<body>
+    <!-- start code===================== -->
+    <div class="container-fluid max1">
+        <!-- ===============================================navbar======================================= -->
+        <div class="container-fluid  " id="home">
+            <div class="row py-3 ">
+                <div class="col-6">
+                    <nav class="navbar navbar-expand-md navbar-light header fixed-top fs-6">
+                        <a class="navbar-brand fw-bold ms-5" href="./unchi dhara.html">
+                            <h1 class=" max2 ">Unchi Dhara</h1>
+                        </a>
+
+                        <button class="navbar-toggler btn bg-white btn-white me-5" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
+                            aria-expanded="false" aria-label="toggle navigation">
+                            <span class="navbar-toggler-icon"> </span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbar">
+
+                            <ul class="navbar-nav mx-auto">
+
+
+                                <li class="nav-item dropdown ms-5">
+                                    <div class="col-md">
+                                        <a class="nav-link border px-3 py-1 fs-6 upside border-0 align-bottom mt-3"
+                                            href="#" id="navbardropdown" role="button" data-bs-toggle="dropdown">
+                                            <p class="text-warning">Region <i class="fa-solid fa-caret-down"
+                                                    style="color: #ffbb00;"></i></p>
+                                        </a>
+                                        <div class="dropdown-menu">
+
+                                            <a class="dropdown-item text-warning"
+                                                href="../unchi_dhara/Robbers-cave.html">Robber's Cave</a>
+                                            <a class="dropdown-item text-warning"
+                                                href="../unchi_dhara/sehestra-dhara.html">The Sehestra Dhara</a>
+                                            <a class="dropdown-item text-warning"
+                                                href="../unchi_dhara/uttarakhand-valley.html">Uttarakhand valley</a>
+                                            <a class="dropdown-item text-warning" href="#">Find Your Villa</a>
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item ms-4 margin1">
+                                    <div class="col-md">
+                                        <a class="nav-link text-warning active"
+                                            href="../unchi_dhara/services.html">Services</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown ms-5">
+                                    <div class="col-md">
+                                        <a class="nav-link border-0 px-3 py-1 fs-6 upside mt-3"
+                                            href="../unchi_dhara/activities.html" id="navbardropdown" role="button"
+                                            data-bs-toggle="dropdown">
+                                            <p class="text-warning"> Activities <i class="fa-solid fa-caret-down"
+                                                    style="color: #ffbb00;"></i></p>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item border-botttom"
+                                                href="../unchi_dhara/Boat Tour From Haridwar.html">
+                                                <p class="text-warning">Boat Tour From Haridwar</p>
+                                            </a>
+                                            <a class="dropdown-item border-botttom"
+                                                href="../unchi_dhara/Tour Guidance From Neelkanth.html">
+                                                <p class="text-warning">Tour Guidance From Neelkanth</p>
+                                            </a>
+                                            <a class="dropdown-item border-botttom"
+                                                href="../unchi_dhara/Learn The Culture Tour.html">
+                                                <p class="text-warning">Learn The Culture Tour</p>
+                                            </a>
+                                            <a class="dropdown-item border-botttom"
+                                            href="./activities.html">
+                                            <p class="text-warning">All Activities</p>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item ms-4">
+                                    <div class="col-md">
+                                        <a class="nav-link text-dark active margin1" href="../unchi_dhara/news.html">
+                                            <p class=" text-warning">News</p>
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item ms-4">
+                                    <div class="col-md">
+                                        <a class="nav-link text-dark active text-warning margin1"
+                                            href="../unchi_dhara/shop.html">
+                                            <p class=" text-warning">Shop</p>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <button id="openModalButton" class="me-3"> Reservation</button>
+                            <div class="modal custom-modal " id="reservationModal">
+                                <div class="modal-content making1">
+                                    <div class="col-md-6 modal-content-ext">
+                                        <label class="close" for="reservationModal">X</label>
+                                        <h2 class="ms-3">Reserve Your experience</h2>
+                                        <form>
+                                            <label for="name" class="ms-3">Name:</label>
+                                            <input type="text" id="name" name="name" required><br><br>
+
+                                            <label for="email" class="ms-3">Email:</label>
+                                            <input type="email" id="email" name="email" required><br><br>
+
+                                            <label for="checkin" class="ms-3">Check-in Date:</label>
+                                            <input type="date" id="checkin" name="checkin" required><br><br>
+
+                                            <label for="checkout" class="ms-3">Check-out Date:</label>
+                                            <input type="date" id="checkout" name="checkout" required><br><br>
+
+                                            <label for="comments" class="ms-3">Comments:</label><br>
+                                            <textarea class="ms-3" id="comments" name="comments" rows="4"
+                                                cols="50"></textarea><br><br>
+
+                                            <input class="ms-3" type="submit" value="Submit">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ==============================================header=========================================================== -->
+    <!-- forspacingonly -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 margin1"></div>
+        </div>
+    </div>
+    <!-- forspacingonly -->
+
+
+
+
+    <!-- ==================================================button======================================= -->
+
+
+
+    <button id="scrollToTopBtn" class="btn btn-warning"><i class="fa-solid fa-arrow-up fa-xl"
+            style="color: #ffffff;"></i></button>
+
+    <a href="https://wa.me/?text=I'm%20inquiring%20about%20the%20Hotel%20listing">
+        <i id="whatsapp-icon" class="fab fa-whatsapp fa-2x" style="color: #ffbb00;"></i>
+    </a>
+
+    <!-- =======================================================button==================================== -->
+
+
+
+
+    <!--====================================== NEWS HEADING ==============================================-->
+
+    <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-12 max26">
+                <h1 class="mt-5">News</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--====================================== NEWS HEADING ==============================================-->
+
+    <div class="container ">
+        <h1>Archives: Services</h1>
+        <div class="row mt-5">
+            <div class="col-md-7 max27"></div>
+
+
+            <div class="col-md-5 max16 text-center">
+
+                <p class="fs-6  mt-5">Required fields are followed by *</p>
+
+                <form class="mt-5 mx-5">
+                    <label for="adults" class="float-start">Number of Adults :</label>
+                    <input type="number" id="adults" name="adults" min="1" max="5" required class="float-end w-50"
+                        placeholder="Enter the number of Adults">
+                    <br><br>
+
+                    <label for="children" class="float-start">Number of Children :</label>
+                    <input type="number" id="children" name="children" min="0" max="5" required class="float-end w-50"
+                        placeholder="Enter the number of Children">
+                    <br><br>
+
+                    <label for="checkin" class="float-start">Check-in Date :</label>
+                    <input type="date" id="checkin" name="checkin" required class="float-end w-50">
+                    <br><br>
+
+                    <label for="checkout" class="float-start">Check-out Date :</label>
+                    <input type="date" id="checkout" name="checkout" required class="float-end w-50">
+                    <br><br>
+
+                <a href="./modal1.html">    <input type="submit" value="Submit Reservation" class="mt-4 max17"> </a>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="mt-5">Unforgettable Rose garden tour in Rishikesh Unchi Dhaar Hotel</h1>
+                <p class="mt-5">Our villa in Lazio is a great place to discover and enjoy the water life – beachfront,
+                    mountains and lots of fresh air. However, if you also want to some some magnificent places of
+                    gardens, you’ll love the garden tour near our Lazio’s villa.</p>
+
+                <p> A rewarding half-day trip from Bolsena, this labyrinth of immaculately clipped box hedges has
+                    resisted the vagaries of garden fashion to come down to us unchanged from the early 17th century.
+                    Sounds quite attractive for you, isn’t it?</p>
+
+                <p> Hidden in the 12 parterres are the initials of the garden’s founder, Ottavia Orsini, and her sons.
+                    The current owner is simpatica Princess Claudia Ruspoli, personally guides visitors around the
+                    garden which she has restored and put into her work a lot of passion. Tours, which also take in her
+                    castle home, Castello Ruspoli, take place on Sundays from April to the end of October.</p>
+
+                <p> Groups can visit by appointment at other times too.</p>
+
+                <hr class="hrclass">
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-7 max28"></div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="mt-5">Special discounts for Indian castles tour!</h1>
+                <p class="mt-5">Embarking on an Indian Castles Tour is an invitation to step into the captivating
+                    history and heritage of India. The country's castles and forts are not mere structures; they are
+                    living testaments to a bygone era, each telling its unique story. We are thrilled to offer exclusive
+                    discounts to enhance your Indian Castles Tour experience.</p>
+
+                <p> India's castles are architectural wonders, from the majestic Amber Fort in Jaipur to the hauntingly
+                    beautiful Bhangarh Fort in Rajasthan. When you choose to stay at our hotel, you unlock a world of
+                    benefits. Enjoy discounted accommodation rates, expert-guided castle tours, convenient
+                    transportation, and a culinary journey through diverse Indian cuisines at our restaurant.</p>
+
+                <p>Exploring India's castles is like stepping back in time. The intricate carvings, stunning vistas, and
+                    the echoes of history will leave an indelible mark on your soul. These experiences will undoubtedly
+                    become cherished memories.</p>
+
+                <p> Don't miss this opportunity to immerse yourself in India's rich history and culture. Book your stay
+                    now and seize the chance to create timeless memories on your Indian Castles Tour. Whether you're a
+                    history enthusiast or simply seeking a unique adventure, our exclusive discounts ensure you have an
+                    unforgettable journey.</p>
+
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+        <!-- =============================================================================================================== -->
+        <!-- advertisement -->
+        <!-- =============================================================================================================== -->
+
+        <div class="container-lg max30">
+            <div class="row">
+                <div class="col-md-8">
+                    <H1 class="text-center text-danger mt-5">@DISCOUNT UPTO 50% ON ANY HOTEL</H1>
+                    <h2 class="text-info mt-5">GRAB THE SWEET DEAL </h2>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 max31"></div>
+                            <div class="col-6 max32"></div>
+                            <div class="col-6 max33"></div>
+                            <div class="col-6 max34"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- form -->
+                <div class="col-md-4  max16 text-center max">
+                    <p class="fs-6  mt-5">For your Fast Booking</p>
+
+                    <form class="mt-5 mx-5">
+                        <label for="adults" class="float-start">Number of Adults :</label>
+                        <input type="number" id="adults" name="adults" min="1" max="5" required class="float-end w-50"
+                            placeholder="Enter the number of Adults">
+                        <br><br>
+
+                        <label for="children" class="float-start">Number of Children :</label>
+                        <input type="number" id="children" name="children" min="0" max="5" required
+                            class="float-end w-50" placeholder="Enter the number of Children">
+                        <br><br>
+
+                        <label for="checkin" class="float-start">Check-in Date :</label>
+                        <input type="date" id="checkin" name="checkin" required class="float-end w-50">
+                        <br><br>
+
+                        <label for="checkout" class="float-start">Check-out Date :</label>
+                        <input type="date" id="checkout" name="checkout" required class="float-end w-50">
+                        <br><br>
+
+                        <input type="submit" value="Submit Reservation" class="mt-4 max17">
+                    </form>
+                </div>
+                <!-- form -->
+
+            </div><!-- row -->
+        </div><!-- container -->
+
+        <!-- forspacingonly -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12 spacing"></div>
+            </div>
+        </div>
+        <!-- forspacingonly -->
+
+
+        <!-- =============================================================================================================== -->
+        <!-- advertisement -->
+        <!-- =============================================================================================================== -->
+
+
+
+
+        <div class="row">
+            <div class="col-md-7 max29"></div>
+            <div class="col-md-5"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-7">
+                <h1 class="mt-5">Celebrate Holi Festival with us</h1>
+                <p class="mt-5">Join us in celebrating the Lucca Summer Festival, the ultimate music extravaganza that
+                    defines the spirit of summer. It's a time for music, laughter, and creating unforgettable memories,
+                    and there's no better place to experience all of this than right here with us at our hotel.</p>
+
+                <p> The Lucca Summer Festival is a musical marvel that attracts renowned international and local
+                    artists. From rock legends to contemporary pop sensations, the festival's diverse lineup promises
+                    something for every music lover. It's a chance to immerse yourself in the world of live music and
+                    let the rhythms and melodies wash over you in the warm summer air.</p>
+
+                <p> When you choose to stay with us during the Lucca Summer Festival, you're not just booking a room;
+                    you're securing your festival haven. Our hotel offers convenience with its close proximity to the
+                    festival grounds, ensuring easy access to all the action. You can relax and unwind in our
+                    comfortable accommodations, ensuring you're well-rested for each day of the festival. And when it's
+                    time to refuel, our restaurant awaits, serving delectable meals that complement your musical
+                    adventure. It's not just a place to stay; it's a community where you can connect with fellow
+                    festival-goers, sharing your excitement and experiences in a vibrant and friendly atmosphere.</p>
+
+                <hr class="hrclass">
+            </div>
+            <div class="col-md-5"></div>
+        </div>
+
+
+
+
+
+        <!-- ========================================footer================================================== -->
+        <div class="container-fluid bg-dark max13 text-white mt-5">
+
+            <h2 class="mt-5 max12">UNCHI DHARA</h2>
+            <div class="container-lg mt-5">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h2 class="max13">Location</h2>
+                        <p class="mt-4">D-301 Hotel Unchi Dhaar Near</p>
+                        <p>Chanakya college Dehradun-110043</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="max13">Reception</h2>
+                        <p class="mt-4">+1 1234567890</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="max13">Shuttle Service</h2>
+                        <p class="mt-4">+1 5432154321</p>
+                    </div>
+                    <div class="col-md-3">
+                        <h2 class="max13">Restaurant</h2>
+                        <p class="mt-4">+1 8010580105</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid max14">
+                <hr>
+            </div>
+        </div>
+        <!-- ========================================footer================================================== -->
+
+
+
+        <!-- script linking -->
+        <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+        <!-- script linking -->
+
+
+        <!-- ==================================script========================================= -->
+
+        <script src="jquery.js"></script>
+
+        <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn the Culture Tour</title>
+    <!-- external css file linking -->
+    <link rel="stylesheet" href="../CSS/unchi dhara.css">
+    <!-- external css file linking -->
+
+    <!-- font awesome linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- font awesome linking -->
+
+
+    <!-- bootstrap css file linking -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- bootstrap css file linking -->
+
+
+    <!-- css animation linking file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- css animation linking file -->
+    <!-- =================google fonts to be used===================== -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Fuggles&family=Mooli&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+        font-family: 'Assistant', sans-serif;
+        font-family: 'Fuggles', cursive;
+        font-family: 'Mooli', sans-serif;
+         -->
+
+    <!--=================== google fonts to be used======================= -->
+
+</head>
+
+<body>
+    <!-- start code===================== -->
+    <div class="container-fluid max1">
+        <!-- ===============================================navbar======================================= -->
+        <div class="container-fluid  " id="home">
+            <div class="row py-3 ">
+                <div class="col-6">
+                    <nav class="navbar navbar-expand-md navbar-light header fixed-top fs-6">
+                        <a class="navbar-brand fw-bold ms-5" href="./unchi dhara.html">
+                            <h1 class=" max2 ">Unchi Dhara</h1>
+                        </a>
+
+                        <button class="navbar-toggler btn bg-white btn-white me-5" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar"
+                            aria-expanded="false" aria-label="toggle navigation">
+                            <span class="navbar-toggler-icon"> </span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbar">
+
+                            <ul class="navbar-nav mx-auto">
+
+
+                                <li class="nav-item dropdown ms-5">
+                                    <div class="col-md">
+                                        <a class="nav-link border px-3 py-1 fs-6 upside border-0 align-bottom mt-3"
+                                            href="#" id="navbardropdown" role="button" data-bs-toggle="dropdown">
+                                            <p class="text-warning">Region <i class="fa-solid fa-caret-down"
+                                                    style="color: #ffbb00;"></i></p>
+                                        </a>
+                                        <div class="dropdown-menu">
+
+                                            <a class="dropdown-item text-warning"
+                                                href="../unchi_dhara/Robbers-cave.html">Robber's Cave</a>
+                                            <a class="dropdown-item text-warning"
+                                                href="../unchi_dhara/sehestra-dhara.html">The Sehestra Dhara</a>
+                                            <a class="dropdown-item text-warning"
+                                                href="../unchi_dhara/uttarakhand-valley.html">Uttarakhand valley</a>
+                                            <a class="dropdown-item text-warning" href="#">Find Your Villa</a>
+
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item ms-4 margin1">
+                                    <div class="col-md">
+                                        <a class="nav-link text-warning active"
+                                            href="../unchi_dhara/services.html">Services</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown ms-5">
+                                    <div class="col-md">
+                                        <a class="nav-link border-0 px-3 py-1 fs-6 upside mt-3"
+                                            href="../unchi_dhara/activities.html" id="navbardropdown" role="button"
+                                            data-bs-toggle="dropdown">
+                                            <p class="text-warning"> Activities <i class="fa-solid fa-caret-down"
+                                                    style="color: #ffbb00;"></i></p>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item border-botttom"
+                                                href="../unchi_dhara/Boat Tour From Haridwar.html">
+                                                <p class="text-warning">Boat Tour From Haridwar</p>
+                                            </a>
+                                            <a class="dropdown-item border-botttom"
+                                                href="../unchi_dhara/Tour Guidance From Neelkanth.html">
+                                                <p class="text-warning">Tour Guidance From Neelkanth</p>
+                                            </a>
+                                            <a class="dropdown-item border-botttom"
+                                                href="../unchi_dhara/Learn The Culture Tour.html">
+                                                <p class="text-warning">Learn The Culture Tour</p>
+                                            </a>
+                                            
+                                            <a class="dropdown-item border-botttom"
+                                            href="./activities.html">
+                                            <p class="text-warning">All Activities</p>
+                                        </a>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item ms-4">
+                                    <div class="col-md">
+                                        <a class="nav-link text-dark active margin1" href="../unchi_dhara/news.html">
+                                            <p class=" text-warning">News</p>
+                                        </a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item ms-4">
+                                    <div class="col-md">
+                                        <a class="nav-link text-dark active text-warning margin1"
+                                            href="../unchi_dhara/shop.html">
+                                            <p class=" text-warning">Shop</p>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+
+                            <button id="openModalButton" class="me-3"> Reservation</button>
+                            <div class="modal custom-modal " id="reservationModal">
+                                <div class="modal-content making1">
+                                    <div class="col-md-6 modal-content-ext">
+                                        <label class="close" for="reservationModal">X</label>
+                                        <h2 class="ms-3">Reserve Your experience</h2>
+                                        <form>
+                                            <label for="name" class="ms-3">Name:</label>
+                                            <input type="text" id="name" name="name" required><br><br>
+
+                                            <label for="email" class="ms-3">Email:</label>
+                                            <input type="email" id="email" name="email" required><br><br>
+
+                                            <label for="checkin" class="ms-3">Check-in Date:</label>
+                                            <input type="date" id="checkin" name="checkin" required><br><br>
+
+                                            <label for="checkout" class="ms-3">Check-out Date:</label>
+                                            <input type="date" id="checkout" name="checkout" required><br><br>
+
+                                            <label for="comments" class="ms-3">Comments:</label><br>
+                                            <textarea class="ms-3" id="comments" name="comments" rows="4"
+                                                cols="50"></textarea><br><br>
+
+                                            <input class="ms-3" type="submit" value="Submit">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+            </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- ==============================================header=========================================================== -->
+
+    <!-- forspacingonly -->
+    <div class="container">
+        <div class="row">
+            <div class="col-12 spacing">
+            </div>
+        </div>
+    </div>
+    <!-- forspacingonly -->
+
+
+
+    <!-- ==================================================button======================================= -->
+
+
+
+    <button id="scrollToTopBtn" class="btn btn-warning"><i class="fa-solid fa-arrow-up fa-xl"
+            style="color: #ffffff;"></i></button>
+
+    <a href="https://wa.me/?text=I'm%20inquiring%20about%20the%20Hotel%20listing">
+        <i id="whatsapp-icon" class="fab fa-whatsapp fa-2x" style="color: #ffbb00;"></i>
+    </a>
+
+    <!-- =======================================================button==================================== -->
+
+
+
+
+
+    <div class="container-lg max36">
+        <div class="row">
+            <div class="col-12 max41">
+                <h1 class="text-center text-warning ">'Learn the Culture ' Tour</h1>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-lg">
+        <h2 class="mt-3">Come Join Us For The Cultural Tour</h2>
+    </div>
+
+    <div class="container-lg max16 mt-5">
+        <h3 class="mt-4">"Come Join Us for a Cultural Tour in Uttarakhand"</h3>
+
+        <p class="mt-3">Embark on a journey that goes beyond the breathtaking landscapes of Uttarakhand and invites you
+            to explore its rich cultural tapestry. Our cultural tour offers an immersive experience, allowing you to
+            delve into the heart of this Himalayan state where tradition and heritage thrive.</p>
+
+        <p class="mt-3">Uttarakhand's cultural diversity comes to life as you visit traditional villages, engage with
+            welcoming locals, and witness customs that have stood the test of time. From the Kumbh Mela's grandeur to
+            the lively dance performances during the Nanda Devi Raj Jat Yatra, our tour ensures you are part of the
+            vibrant celebrations that define this region.</p>
+
+        <p class="mt-3">Savor the authentic flavors of Uttarakhand with traditional dishes like Aloo Ke Gutke and Gahat
+            Ki Dal, prepared with locally sourced ingredients and centuries-old recipes. Witness the artistic heritage
+            through visits to local artisans, where intricate Pahadi paintings, woodwork, and handmade textiles come to
+            life. This cultural tour is a holistic experience that not only celebrates tradition but also embraces the
+            natural wonders and spiritual landmarks that make Uttarakhand a truly unique destination. Join us for a
+            journey that will leave you with a profound understanding and appreciation of Uttarakhand's culture.
+
+        </p>
+    </div>
+
+
+    <div class="container-lg mt-5">
+        <ol>
+
+            <li>
+                <h4>Knowledgeable Guides: </h4>
+                <p> Passengers will benefit from expert tour guides well-versed in Uttarakhand's culture, history, and
+                    traditions. These guides will provide valuable insights, anecdotes, and context throughout the
+                    journey, enhancing the overall cultural experience.</p>
+            </li>
+
+            <li>
+                <h4>Cultural Immersion: </h4>
+                <p> The tour offers opportunities for passengers to immerse themselves in local culture by visiting
+                    traditional villages. Here, they can interact with residents, witness daily life, and gain a deeper
+                    understanding of local customs and traditions.</p>
+            </li>
+
+            <li>
+                <h4>Festival Participation: </h4>
+                <p>Passengers will have the chance to participate in vibrant local festivals and celebrations, such as
+                    the Kumbh Mela or Nanda Devi Raj Jat Yatra. This firsthand experience allows them to embrace the
+                    spirit of the region's festivities.</p>
+            </li>
+
+            <li>
+                <h4>Culinary Exploration:</h4>
+                <p>The tour includes sampling authentic Uttarakhandi cuisine. Passengers can savor dishes like Aloo Ke
+                    Gutke and Gahat Ki Dal, gaining insight into the region's culinary traditions and enjoying locally
+                    sourced ingredients.</p>
+            </li>
+
+            <li>
+                <h4>Artisan Workshops:</h4>
+                <p> Passengers can explore the artistic heritage of Uttarakhand by visiting local artisans. They'll
+                    witness the creation of intricate Pahadi paintings, woodwork, and handmade textiles, and even have
+                    the opportunity to try their hand at these crafts.</p>
+            </li>
+            <!-- =============================================================================================================== -->
+            <!-- advertisement -->
+            <!-- =============================================================================================================== -->
+
+            <div class="container-lg max30">
+                <div class="row">
+                    <div class="col-md-8">
+                        <H1 class="text-center text-danger mt-5">@DISCOUNT UPTO 50% ON ANY HOTEL</H1>
+                        <h2 class="text-info mt-5">GRAB THE SWEET DEAL </h2>
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6 max31"></div>
+                                <div class="col-6 max32"></div>
+                                <div class="col-6 max33"></div>
+                                <div class="col-6 max34"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- form -->
+                    <div class="col-md-4  max16 text-center max">
+                        <p class="fs-6  mt-5">For your Fast Booking</p>
+
+                        <form class="mt-5 mx-5">
+                            <label for="adults" class="float-start">Number of Adults :</label>
+                            <input type="number" id="adults" name="adults" min="1" max="5" required
+                                class="float-end w-50" placeholder="Enter the number of Adults">
+                            <br><br>
+
+                            <label for="children" class="float-start">Number of Children :</label>
+                            <input type="number" id="children" name="children" min="0" max="5" required
+                                class="float-end w-50" placeholder="Enter the number of Children">
+                            <br><br>
+
+                            <label for="checkin" class="float-start">Check-in Date :</label>
+                            <input type="date" id="checkin" name="checkin" required class="float-end w-50">
+                            <br><br>
+
+                            <label for="checkout" class="float-start">Check-out Date :</label>
+                            <input type="date" id="checkout" name="checkout" required class="float-end w-50">
+                            <br><br>
+
+                           <a href="./modal1.html"><input type="submit" value="Submit Reservation" class="mt-4 max17"></a>
+                        </form>
+                    </div>
+                    <!-- form -->
+
+                </div><!-- row -->
+            </div><!-- container -->
+
+            <!-- forspacingonly -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 spacing"></div>
+                </div>
+            </div>
+            <!-- forspacingonly -->
+
+
+            <!-- =============================================================================================================== -->
+            <!-- advertisement -->
+            <!-- =============================================================================================================== -->
+
+
+            <li>
+                <h4>Spiritual Journeys:</h4>
+                <p>The tour encompasses visits to sacred sites and temples like Badrinath, Kedarnath, and the Char Dham
+                    Yatra. Passengers can partake in spiritual rituals, soak in the divine ambiance, and gain a deeper
+                    connection to the region's religious heritage.</p>
+            </li>
+
+            <li>
+                <h4>Adventure Activities:</h4>
+                <p> While celebrating culture, passengers won't miss out on Uttarakhand's natural beauty and adventure
+                    opportunities. Thrilling trekking trails, wildlife safaris, and serene landscapes await exploration.
+                </p>
+            </li>
+
+            <li>
+                <h4>Comfortable Accommodations:</h4>
+                <p> Passengers can expect comfortable and well-appointed accommodations at the end of each day's
+                    cultural adventures. These restful retreats provide a welcoming haven after immersive experiences.
+                </p>
+            </li>
+
+            <li>
+                <h4>Transportation and Logistics:</h4>
+                <p>The tour takes care of transportation, ensuring a seamless and hassle-free journey. Passengers can
+                    relax and focus on cultural exploration, knowing that logistics are expertly managed.</p>
+            </li>
+
+            <li>
+                <h4>Warm Local Hospitality: </h4>
+                <p> Throughout the journey, passengers will experience the warm hospitality of Uttarakhand's residents.
+                    This genuine welcome adds an authentic touch to the cultural tour, making passengers feel at home in
+                    this captivating region.</p>
+            </li>
+        </ol>
+    </div>
+
+    <!-- ========================================footer================================================== -->
+    <div class="container-fluid bg-dark max13 text-white mt-5">
+
+        <h2 class="mt-5 max12">UNCHI DHARA</h2>
+        <div class="container-lg mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <h2 class="max13">Location</h2>
+                    <p class="mt-4">D-301 Hotel Unchi Dhaar Near</p>
+                    <p>Chanakya college Dehradun-110043</p>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="max13">Reception</h2>
+                    <p class="mt-4">+1 1234567890</p>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="max13">Shuttle Service</h2>
+                    <p class="mt-4">+1 5432154321</p>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="max13">Restaurant</h2>
+                    <p class="mt-4">+1 8010580105</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid max14">
+            <hr>
+        </div>
+    </div>
+    <!-- ========================================footer================================================== -->
+
+
+
+    <!-- scrpit linking -->
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- scrpit linking -->
+
+
+    <!-- ==================================script========================================= -->
+
+    <script src="jquery.js"></script>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

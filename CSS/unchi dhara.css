@@ -1,0 +1,595 @@
+/* =================================================================================================================
+                                              UNCHI DHARA GROUP OF HOTELS
+ ================================================================================================================= */
+
+/* <!-- 
+            font-family: 'Assistant', sans-serif;
+            font-family: 'Fuggles', cursive;
+            font-family: 'Mooli', sans-serif;
+             --> */
+
+* {
+    font-family: 'Mooli', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+/* =================================================================================================================
+                                         ANIMATION                                                                      
+   ================================================================================================ ================ */
+   #whatsapp-icon {
+    position: fixed;
+    right: 30px;
+    bottom: 180px;
+    transition: opacity 0.5s, transform 2s;
+}
+
+.header{
+    background-color:black;
+    transition: all 0.7s ease-in-out;
+}
+
+.header.headerChanger{
+   background-color:blanchedalmond; 
+   color: black;
+    
+}
+/* ====================================================================================================================
+                                                        animation
+======================================================================================================================= */
+
+
+
+
+/* ====================================================================================================================== */
+/*                                                      MODAL*/
+/* ====================================================================================================================== */
+ /* Custom styling for the modal */
+ .custom-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .making1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #reservationModal {
+    display: none;
+    background-color:#ffbb00; /* Background color based on the theme */
+    color: black; /* Text color based on the theme */
+  }
+
+  .modal-content-ext{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 5px solid black;
+    background-color: #ffbb00; /* Background color based on the theme */
+
+  }
+
+  .modal-header {
+    border-bottom: none;
+    text-align: center;
+  }
+
+  .modal-body input,
+  .modal-body textarea {
+    border: 1px solid #ffbb00;
+  }
+
+  .modal-body label {
+    color: black;
+  }
+
+/* ====================================================================================================================== */
+/*                                                      MODAL*/
+/* ====================================================================================================================== */
+
+
+
+  /* Custom CSS to position the button */
+  #scrollToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }
+
+
+  #anchor{
+    text-decoration: none;
+    color: #ffbb00;
+  }
+
+@font-face {
+    font-family:shivam;
+    src: url(../fonts/Mooli-Regular.ttf);
+  }
+
+@media (max-width: 767px) {
+    .max4 {
+        display: none
+    }
+    .margin1{
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex
+}
+
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%)
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%)
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0)
+}
+
+.upside:hover>i {
+    transform: scaleY(-1);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.margin1{
+    margin-top: 12px;
+}
+.spacing{
+    height: 100px;
+}
+.hrclass{
+    height: 20px;
+    background-color: #ffbb00;
+    color: #ffbb00;
+}
+.border1{
+    border: 10px solid #ffbb00;
+}
+ /* Modal Styles */
+ .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+/* Close button */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+/* Show modal when button is clicked */
+#openModal:checked {
+    display: flex;
+}
+
+/* Style for the "Make a Reservation" button */
+#openModalButton {
+    background-color: #ffbb00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#antique-link {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+/* .max1 {
+    background-color: gainsboro;
+} */
+
+.max2 {
+    font-family: 'Fuggles', cursive;
+    font-weight: 800;
+    font-size: 50px;
+    color: #ffbb00;
+}
+
+.max3 {
+    height: 200px;
+}
+
+.max4 {
+    height: 400px;
+}
+
+
+.max5 {
+    border: 3px solid #ffbb00;;
+}
+.max5 h2{
+    font-family: 'Mooli', sans-serif;
+
+}
+.max6 select{
+    width: 100%;
+    height: 50px;
+}
+.max7{
+    height: 430px;
+    background-image: url(../images/unchidhara/facility1.jpg);
+    background-repeat: no-repeat;
+}
+.max8{
+   background-color:blanchedalmond; 
+
+}
+ .max9{
+   background-color:blanchedalmond; 
+}
+.max10{
+    height: 430px;
+    background-image: url(../images/unchidhara/facility2.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.max12{
+    color: #ffbb00;
+    font-family: 'Fuggles', cursive;
+    font-size: 40px;
+}
+.max13{
+    color: #ffbb00;
+}
+.max13 p{
+    font-size: 14px;
+}
+.max14 hr{
+color: #ffbb00;
+height: 30px;
+}
+.max15{
+    background-image: url(../images/unchidhara/robberscave1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 3px solid #ffbb00;
+}
+.max16{
+    border: 3px solid #ffbb00;
+}
+.max36{
+    border: 10px solid #ffbb00;
+}
+.max17{
+    color: white;
+    background-color: #ffbb00;
+    height: 50px;
+    border: 0px;
+    width: 180px;
+    border-radius: 10px;
+}
+.max17:hover{
+    background-color: red;
+}
+.active1 {
+    color: white;
+    background-color: red;
+    text-decoration: none;
+  }
+.max18 a:link {
+    color: black;
+  }
+  
+.max18 a:hover {
+    text-decoration: underline;
+  }
+
+.max19{
+    background-image: url(../images/unchidhara/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+
+}
+.max20{
+    background-image: url(../images/unchidhara/robberscave2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 5px solid #ffbb00;
+}
+.max21{
+    background-image: url(../images/unchidhara/food-hamper.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 5px solid #ffbb00;
+}
+.max22{
+    background-image: url(../images/unchidhara/catering.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 5px solid #ffbb00;
+}
+.max23{
+    background-image: url(../images/unchidhara/baby-sitting.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 5px solid #ffbb00;
+}
+
+.max24{
+    background-image: url(../images/unchidhara/wedding\ venue.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 5px solid #ffbb00;
+}
+
+.max25{
+    background-image: url(../images/unchidhara/car-rental.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 5px solid #ffbb00;
+}
+
+.max26 h1{
+    font-weight: 900;
+    font-size: 60px;
+    color: #ffbb00;
+    font-family: 'Mooli', sans-serif;
+}
+
+.max27{
+    background-image: url(../images/unchidhara/garden-tour.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 5px solid #ffbb00;
+}
+
+.max28{
+    background-image: url(../images/unchidhara/indian-castles.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 5px solid #ffbb00;
+}
+
+.max29{
+    background-image: url(../images/unchidhara/holi\ festival.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 5px solid #ffbb00;
+}
+.max30{
+    border: 20px solid #ffbb00;
+}
+.max31{
+    background-image: url(../images/unchidhara/banner1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    border: 5px solid wheat; 
+}
+.max32{
+    background-image: url(../images/unchidhara/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    border: 5px solid wheat; 
+}
+.max33{
+    background-image: url(../images/unchidhara/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    border: 5px solid wheat; 
+}
+.max34{
+    background-image: url(../images/unchidhara/banner4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    border: 5px solid wheat; 
+}
+
+.max35{
+    background-image: url(../images/unchidhara/boat-tour.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    border: 5px solid wheat; 
+}
+
+.max37{
+    background-image: url(../images/unchidhara/sehestradhara.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 450px;
+    border: 3px solid #ffbb00; 
+}
+
+.max38{
+    background-image: url(../images/unchidhara/sehestradhara\ hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+
+}
+.max39{
+    background-image: url(../images/unchidhara/uttarakhand1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+}
+
+.max40{
+    background-image: url(../images/unchidhara/uttarakhand2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+}
+.max41{
+    background-image: url(../images/unchidhara/cultural-ride.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    border: 5px solid wheat; 
+}
+.max42{
+    background-image: url(../images/unchidhara/tourguidance.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 500px;
+    border: 5px solid wheat;  
+}
+.max43{
+    background-image: url(../images/unchidhara/villa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+    border: 5px solid wheat;   
+}
+.max44{
+    background-image: url(../images/unchidhara/uttarkhand2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+
+}
+.max45{
+    background-image: url(../images/unchidhara/card1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+}
+.max46{
+    background-image: url(../images/unchidhara/card2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+}
+.max47{
+    background-image: url(../images/unchidhara/card3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+}
+.max48{
+    background-image: url(../images/unchidhara/card4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+}
+.max49{
+    background-image: url(../images/unchidhara/card5.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+}
+.max50 {
+    background-image: url(../images/unchidhara/card6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    border: 5px solid #ffbb00;
+}
+
+
+.max51{
+    background-image: url(../images//unchidhara/indeximage1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 5px solid #ffbb00;
+    border-right: 0px;
+
+
+}
+.max52{
+    background-image: url(../images//unchidhara/indeximage2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 5px solid #ffbb00;
+    border-right: 0px;
+
+}
+.max53{
+    background-image: url(../images//unchidhara/indeximage3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 5px solid #ffbb00;
+    border-right: 0px;
+
+}
+.max54{
+    background-image: url(../images//unchidhara/indeximage4.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 300px;
+    box-sizing: border-box;
+    border: 5px solid #ffbb00;
+
+
+
+
+}

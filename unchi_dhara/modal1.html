@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- external css file linking -->
+    <link rel="stylesheet" href="../CSS/unchi dhara.css">
+    <!-- external css file linking -->
+
+    <!-- font awesome linking -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- font awesome linking -->
+
+
+    <!-- bootstrap css file linking -->
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <!-- bootstrap css file linking -->
+
+
+</head>
+<body>
+     <!-- Button to Trigger the Modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#reservationModal">
+    Make a Reservation
+</button>
+
+<!-- Reservation Modal -->
+<div class="modal fade" id="reservationModal" tabindex="-1" aria-labelledby="reservationModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <h5 class="modal-title" id="reservationModalLabel">Hotel Reservation Form</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <!-- Modal Body - Reservation Form -->
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="checkInDate" class="form-label">Check-In Date</label>
+                        <input type="date" class="form-control" id="checkInDate">
+                    </div>
+                    <div class="mb-3">
+                        <label for="checkOutDate" class="form-label">Check-Out Date</label>
+                        <input type="date" class="form-control" id="checkOutDate">
+                    </div>
+                    <div class="mb-3">
+                        <label for="comments" class="form-label">Comments</label>
+                        <textarea class="form-control" id="comments" rows="4" placeholder="Any special requests or comments"></textarea>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Modal Footer - Submit and Close Buttons -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit Reservation</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- scrpit linking -->
+    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- scrpit linking -->
+
+
+</body>
+</html>
